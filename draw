@@ -1,0 +1,1 @@
+fstdraw --isymbols=data.sym --osymbols=data.sym  $1.fst | dot -Tpdf > $1.pdf

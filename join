@@ -1,0 +1,2 @@
+fstunion $1.fst $2.fst $3.fst
+fstdraw  --isymbols=data.sym --osymbols=data.sym  $3.fst | dot -Tpdf > $3.pdf

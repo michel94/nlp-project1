@@ -1,0 +1,4 @@
+# ./runtest automata input_automata result
+fstcompile --isymbols=data.sym --osymbols=data.sym  $2.txt  > $2.fst
+fstcompose $2.fst $1.fst $3.fst
+fstdraw --isymbols=data.sym --osymbols=data.sym  $3.fst | dot -Tpdf > $3.pdf

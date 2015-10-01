@@ -1,0 +1,7 @@
+0 1 1 um
+0 2 3 eps
+0 3 4 tres
+1 4 5 quarto 10
+2 4 0 meia 10
+3 4 5 quartos 10
+4
